@@ -1,6 +1,6 @@
 # site-institucional
-Site criado com oque eu aprendi até agora em HTML5 e CSS3
+Site criado em HTML5 e CSS3
 
-este site é adptativo a telas
+Site adptativo em diferentes dispositivos.
 
-Proximo passo é adicionar midea queries para tornar o site responsivo
+Próximo passo é adicionar media queries para tornar o site responsivo.
