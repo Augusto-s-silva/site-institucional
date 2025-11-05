@@ -12,51 +12,64 @@
     <header>
         <h1>Real Aparas</h1>
 
-        <nav>
-            <ul>
-                <li><a href="index.html" class="ativo">Home</a></li>
-                <li><a href="pages/servicos.html">Serviços</a></li>
-                <li><a href="pages/sobre.html">Sobre nós</a></li>
-                <li><a href="pages/contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        
+
+        <div id="menu">
+            <button id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </button>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="index.html" class="ativo">Home</a></li>
+                    <li><a href="pages/servicos.html">Serviços</a></li>
+                    <li><a href="pages/sobre.html">Sobre nós</a></li>
+                    <li><a href="pages/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
     </header>
 
     <main>
-        <article>
-            <h1>Conheça nossa Historia</h1>
-            <p>
-                A Real Aparas possui uma trajetória sólida no mercado de reciclagem desde 1992, primando sempre pela
-                parceria estreita com seus fornecedores, colaboradores e, acima de tudo, pelo compromisso inabalável com
-                a preservação do meio ambiente. Nosso trabalho é de suma importância para o coração pulsante da cidade
-                de São Paulo!
-            </p>
+        <section id="sobre" class="parallax">
+            <article>
+                <h2>Conheça nossa Historia</h2>
+            </article>
+        </section>
 
-            <picture>
-                <source media="(max-width: 420px)" srcset="/images/img1-320.jpg">
-                <source media="(max-width: 620px)" srcset="/images/img1-400.jpg">
-                <source media="(max-width: 810px)" srcset="/images/img1-600.jpg">
-                <img src="images/img1.jpg" alt="">
-            </picture>
+        <section class="conteudo">
+            <article>
+                    <p>
+                        A Real Aparas possui uma trajetória sólida no mercado de reciclagem desde 1992, primando sempre pela
+                        parceria estreita com seus fornecedores, colaboradores e, acima de tudo, pelo compromisso inabalável com
+                        a preservação do meio ambiente. Nosso trabalho é de suma importância para o coração pulsante da cidade
+                        de São Paulo!
+                    </p>
+                </article>
+        </section>
 
-                <p>
-                    A reciclagem é fundamental para o meio ambiente pois conserva recursos naturais ao permitir a
-                    reutilização de materiais, como papel, plástico, vidro e metal, reduzindo a necessidade de extrair
-                    novas matérias-primas e minimizando o impacto ambiental associado a esses processos. Além disso,
-                    diminui o volume de lixo enviado para aterros, alivia a pressão sobre esses locais e reduz a
-                    poluição do solo e da água. Ao diminuir a produção e o consumo de energia para fabricar produtos a
-                    partir de materiais reciclados, a reciclagem também contribui para a redução de emissões de gases de
-                    efeito estufa e para a melhoria da qualidade do ar.
-                </p>
+        <section id="missao" class="parallax">
+            <article>
+                <h2>Historia</h2>
+            </article>
+        </section>
 
-                <picture>
-                    <source media="(max-width: 420px)" srcset="/images/img2-320.jpeg">
-                    <source media="(max-width: 620px)" srcset="/images/img2-400.jpeg">
-                    <source media="(max-width: 810px)" srcset="/images/img2-600.jpeg">
-                    <img src="images/img2-800.jpeg" alt="">
-                </picture>
-        </article>
-
+        <section class="conteudo">
+            <article>
+                    <p>
+                        A reciclagem é fundamental para o meio ambiente pois conserva recursos naturais ao permitir a
+                        reutilização de materiais, como papel, plástico, vidro e metal, reduzindo a necessidade de extrair
+                        novas matérias-primas e minimizando o impacto ambiental associado a esses processos. Além disso,
+                        diminui o volume de lixo enviado para aterros, alivia a pressão sobre esses locais e reduz a
+                        poluição do solo e da água. Ao diminuir a produção e o consumo de energia para fabricar produtos a
+                        partir de materiais reciclados, a reciclagem também contribui para a redução de emissões de gases de
+                        efeito estufa e para a melhoria da qualidade do ar.
+                    </p>
+                </article>
+        </section>
     </main>
 
     <aside>
@@ -72,6 +85,8 @@
     <footer>
         <p>&copy;Copyrigth Todos os direitos reservados.</p>
     </footer>
+
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
